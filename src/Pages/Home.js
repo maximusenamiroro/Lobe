@@ -16,7 +16,7 @@ const Home = () => {
           <p className='lex text-[#333333] text-center xs:text-4xl xs:px-10 xs:pt-2 xs:pb-4 md:text-6xl font-bold'>Train your app with Lobe</p>
         </div>
         <div className=' text-center'>
-        <Button className="text-lg lg:rounded-3xl lg:font-medium lg:px-10 lg:py-6 lg:mt-12 mb-20 md:mt-9 md:py-6 md:px-14 md:text-2xl xs:px-8 xs:text-xl" as={Link} href="#" variant="flat"
+        <Button className="btn text-lg hover:p-7 lg:rounded-3xl lg:font-medium lg:px-10 lg:py-6 lg:mt-12 mb-20 md:mt-9 md:py-6 md:px-14 md:text-2xl xs:px-8 xs:text-xl" as={Link} href="#" variant="flat"
           style={{
             backgroundColor: "#04ddb2",
             color: "white"

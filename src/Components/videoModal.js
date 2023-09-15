@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ModalVideo from "react-modal-video";
 import '../../node_modules/react-modal-video/css/modal-video.css'
 import vidpic from '../Assets/Video.jpg'
+import './styles/Video.css'
 
 export class videoModal extends Component {
   constructor() {
@@ -25,8 +26,8 @@ export class videoModal extends Component {
             videoId="Mdcw3Sb98DA"
             onClose={() => this.setState({ isOpen: false })}
           />
-          <button onClick={this.openModal}>
-            <img src={vidpic} alt="" className="lg:px-36 lg:py-20 md:px-14 md:py-16 xs:my-7 px-8 "/>
+          <button className="text-center justify-center content-center" onClick={this.openModal}>
+            <img src={vidpic} alt="" className="btn lg:w-8/12 lg:py-0 lg:px-0 lg:mx-auto md:px-14 md:py-16 xs:w-10/12 xs:mx-auto "/>
           </button>
         </div>
       </div>

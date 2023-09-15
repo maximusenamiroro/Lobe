@@ -29,7 +29,7 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
-      <NavbarItem  className="text-lg">
+      <NavbarItem isActive className="text-lg">
           <Link color="foreground" to="/leg">
             Overview
           </Link>
@@ -58,7 +58,7 @@ export default function App() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button className="text-lg rounded-3xl font-medium" as={Link} href="#" variant="flat"
+          <Button className="text-lg hover:p-5 md:mr-8 rounded-3xl font-medium" as={Link} href="#" variant="flat"
           style={{
             backgroundColor: "#04ddb2",
             color: "white"
