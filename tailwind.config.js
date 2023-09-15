@@ -7,8 +7,8 @@ module.exports = {
   "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"],
   theme: {
      screens:{
-      'xs': '350px',
-      'sm': '640px',
+      'xs': '300px',
+      
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
