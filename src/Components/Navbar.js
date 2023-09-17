@@ -20,7 +20,7 @@ export default function App() {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="md:hidden"
         />
         <NavbarBrand>
         <p className="font-bold text-2xl text-[#323232]">lobe</p>
@@ -28,14 +28,14 @@ export default function App() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-8" justify="center">
+      <NavbarContent className="hidden md:flex gap-8" justify="center">
       <NavbarItem isActive className="text-lg">
           <Link color="foreground" to="/leg">
             Overview
           </Link>
         </NavbarItem>
         <NavbarItem isActive  className="text-lg">
-          <Link color="foreground" href="#">
+          <Link color="foreground" to="/Examples">
             Examples
           </Link>
         </NavbarItem>
@@ -76,7 +76,7 @@ export default function App() {
               }
               className="w-full"
               href={
-                index === 0 ? "/gree" :index === 1 ? "/blue" : index === 2 ? "/" : index ===3 ? "/heel" : index === 4 ?  "/feel" : "" 
+                index === 0 ? "/gree" :index === 1 ? "/Examples" : index === 2 ? "/" : index ===3 ? "/heel" : index === 4 ?  "/feel" : "" 
               }
               size="lg"
             >
