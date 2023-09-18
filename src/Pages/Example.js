@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button, Link} from "@nextui-org/react";
+import Footer from '../Components/Footer'
 import Lobe1 from '../Assets/Lobe Examples - Machine Learning Made Easy.mp4'
 import Lobe2 from '../Assets/Lobe Examples - Machine Learning Made Easy_2.mp4'
 import Lobe3 from '../Assets/Lobe Examples - Machine Learning Made Easy_3.mp4'
@@ -140,6 +141,7 @@ const Example = () => {
           </Button>
         </div>
         
+        <Footer/>
     </>
   )
 }
